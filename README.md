@@ -1,1 +1,1 @@
-0x00.C - Hello, World
+0x03. C - Debugging. This is a project on Debugging, and I am just learning to debug
