@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -9,11 +10,11 @@
 
 void *malloc_checked(unsigned int b)
 {
-	void *mem = malloc(b);
+	char *output;
 
-	if (mem == NULL)
-	{
+	output = malloc(b);
+	if (output == NULL)
 		exit(98);
-	}
-	return (mem);
+	else
+		return (output);
 }
