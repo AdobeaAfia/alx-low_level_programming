@@ -4,6 +4,7 @@
 /**
  * print_distint - prints all the elements of distint_t list
  * @h: head of the list
+ * @print_distint - prints all teh elements of distint_t lists
  * Return: the number of nodes
  */
 
