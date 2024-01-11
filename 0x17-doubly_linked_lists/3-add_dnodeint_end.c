@@ -1,6 +1,5 @@
 #include "lists.h"
 #include <stdlib.h>
-#include <stdio.h>
 
 /**
  * add_dnodeint_end - adds a new node at the end of distint_t list
